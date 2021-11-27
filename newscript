@@ -1,0 +1,6 @@
+#!/bin/bash
+# We use this to better understand parameter expansion
+SCRIPT=$0
+SCRIPT_NAME=${SCRIPT#./}
+echo "There are $# parameters that are included with the $SCRIPT_NAME script."
+echo "The first is $1, the second is $2, the third is $3."

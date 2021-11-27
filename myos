@@ -1,0 +1,17 @@
+#!/bin/bash
+# A little bit of OS bashing fun
+# Collect info about the users favorite OS.
+read -p "What is your favorite operating system? " fave_os
+# No windows out here!
+if [ $fave_os = 'Windows' ]; then
+	echo "Interesting....I guess that's cool if you're a gamer."
+# Mac is okay...I guess
+elif [ $fave_os = 'MacOS' ]; then
+	echo ".....mkay....at least it's *nix like."
+# Master class!
+elif [ $fave_os = 'Linux' ]; then
+	echo "Beautiful :)"
+# Why are you here?
+else
+	echo "Ehh...I have no clue what you're using."
+fi

@@ -1,0 +1,5 @@
+#!/bin/bash
+# Practicing accepting input
+read -p "What street did you grow up on: " mystreet
+read -p "So that means your town name was: " mytown
+echo "Very cool! I grew up in $mytown also, but I didn't live anywhere near $mystreet."
